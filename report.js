@@ -62,7 +62,8 @@ const styles = StyleSheet.create({
     fontWeight:'bold',
     fontSize:30,
     marginLeft:'5%',
-    marginBottom:'2%'
+    marginBottom:'2%',
+    textDecorationLine: 'underline',
   },
   subtitle:{
     fontWeight:'bold',

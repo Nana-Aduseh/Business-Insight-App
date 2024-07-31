@@ -45,6 +45,7 @@ const App = () => {
        indicates a strong correlation with lunchtime.It is predicted that this trend will persist, with lunchtime continuing to be
         a key period for high order volumes.Businesses may leverage this insight to optimize staffing and operational efficiency 
         during peak hours.</Text>
+        <View style={{height:150}}></View>
       </ScrollView>
     </View>
   )
@@ -62,7 +63,8 @@ const styles = StyleSheet.create({
     fontWeight:'bold',
     fontSize:30,
     marginLeft:'5%',
-    marginBottom:'2%'
+    marginBottom:'2%',
+    textDecorationLine: 'underline'
   },
   subtitle:{
     fontWeight:'bold',
