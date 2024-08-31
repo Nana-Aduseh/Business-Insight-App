@@ -8,6 +8,10 @@ node_modules/
 dist/
 web-build/
 
+# Ignore the login screen
+loginscreen.js
+
+
 # Native
 *.orig.*
 *.jks
